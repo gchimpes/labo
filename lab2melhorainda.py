@@ -47,7 +47,6 @@ class ContaBancaria:
         print("==============================================")
 
 
-# Funções para criar usuários e contas
 def criar_usuario(usuarios):
     nome = input("Digite o nome do usuário: ")
     data_nascimento = input("Digite a data de nascimento (dd/mm/aaaa): ")
@@ -119,7 +118,6 @@ def selecionar_conta(contas):
         return None
 
 
-# Simulação do sistema bancário
 def main():
     menu = """
     [d] Depositar
